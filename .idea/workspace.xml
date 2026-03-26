@@ -4,29 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="861ba5d8-3704-48a3-8301-6104895e59c5" name="Changes" comment="initial commit">
+    <list default="true" id="861ba5d8-3704-48a3-8301-6104895e59c5" name="Changes" comment="Initial commit - UC1 Feet Equality with TDD">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurement/src/main/java/QuantityMeasurementApp/MeasurementApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/measurement/src/main/java/QuantityMeasurementApp/MeasurementApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurement/src/test/java/QuantityMeasurementApp/MeasurementApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/measurement/src/test/java/QuantityMeasurementApp/MeasurementApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "babita7056"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;babita7056&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/babita7056/QuantityMeasurementApp.git",
-    "accountId": "e7301757-2477-4fb0-bc6a-e84dde084fb7"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/babita7056/QuantityMeasurementApp.git&quot;,
+    &quot;accountId&quot;: &quot;e7301757-2477-4fb0-bc6a-e84dde084fb7&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -46,34 +55,127 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.QuantityMeasurementApp.executor": "Run",
+    "JUnit.MeasurementApplicationTests.executor": "Run",
+    "JUnit.MeasurementApplicationTests.testEquality_DifferentValue.executor": "Run",
+    "JUnit.MeasurementApplicationTests.testEquality_NonNumericInput.executor": "Run",
+    "JUnit.MeasurementApplicationTests.testEquality_NullComparison.executor": "Run",
+    "JUnit.MeasurementApplicationTests.testEquality_SameReference.executor": "Run",
+    "JUnit.MeasurementApplicationTests.testEquality_SameValue.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.MeasurementApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/babit/OneDrive/Documents/spring boot"
+    "last_opened_file_path": "C:/Users/babit/OneDrive/Documents/spring boot",
+    "settings.editor.selected.configurable": "build.tools"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="MeasurementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+  <component name="RunManager" selected="Application.Unnamed">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MeasurementApplicationTests.testEquality_DifferentValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="measurement" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="QuantityMeasurementApp.MeasurementApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="QuantityMeasurementApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="QuantityMeasurementApp" />
+      <option name="MAIN_CLASS_NAME" value="QuantityMeasurementApp.MeasurementApplicationTests" />
+      <option name="METHOD_NAME" value="testEquality_DifferentValue" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MeasurementApplicationTests.testEquality_NonNumericInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="measurement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="QuantityMeasurementApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="QuantityMeasurementApp" />
+      <option name="MAIN_CLASS_NAME" value="QuantityMeasurementApp.MeasurementApplicationTests" />
+      <option name="METHOD_NAME" value="testEquality_NonNumericInput" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MeasurementApplicationTests.testEquality_NullComparison" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="measurement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="QuantityMeasurementApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="QuantityMeasurementApp" />
+      <option name="MAIN_CLASS_NAME" value="QuantityMeasurementApp.MeasurementApplicationTests" />
+      <option name="METHOD_NAME" value="testEquality_NullComparison" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MeasurementApplicationTests.testEquality_SameReference" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="measurement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="QuantityMeasurementApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="QuantityMeasurementApp" />
+      <option name="MAIN_CLASS_NAME" value="QuantityMeasurementApp.MeasurementApplicationTests" />
+      <option name="METHOD_NAME" value="testEquality_SameReference" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MeasurementApplicationTests.testEquality_SameValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="measurement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="QuantityMeasurementApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="QuantityMeasurementApp" />
+      <option name="MAIN_CLASS_NAME" value="QuantityMeasurementApp.MeasurementApplicationTests" />
+      <option name="METHOD_NAME" value="testEquality_SameValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="JUnit.MeasurementApplicationTests.testEquality_DifferentValue" />
+      <item itemvalue="JUnit.MeasurementApplicationTests.testEquality_NonNumericInput" />
+      <item itemvalue="JUnit.MeasurementApplicationTests.testEquality_NullComparison" />
+      <item itemvalue="JUnit.MeasurementApplicationTests.testEquality_SameReference" />
+      <item itemvalue="JUnit.MeasurementApplicationTests.testEquality_SameValue" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.MeasurementApplication" />
+        <item itemvalue="JUnit.MeasurementApplicationTests.testEquality_SameValue" />
+        <item itemvalue="JUnit.MeasurementApplicationTests.testEquality_SameReference" />
+        <item itemvalue="JUnit.MeasurementApplicationTests.testEquality_NullComparison" />
+        <item itemvalue="JUnit.MeasurementApplicationTests.testEquality_NonNumericInput" />
+        <item itemvalue="JUnit.MeasurementApplicationTests.testEquality_DifferentValue" />
       </list>
     </recent_temporary>
   </component>
@@ -108,11 +210,35 @@
       <option name="project" value="LOCAL" />
       <updated>1774248720742</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initial commit - UC1 Feet Equality with TDD">
+      <option name="closed" value="true" />
+      <created>1774249134162</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1774249134162</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="Initial commit - UC1 Feet Equality with TDD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit - UC1 Feet Equality with TDD" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/measurement/src/main/java/QuantityMeasurementApp/MeasurementApplication.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
