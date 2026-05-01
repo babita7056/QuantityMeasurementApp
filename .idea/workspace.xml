@@ -6,13 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="861ba5d8-3704-48a3-8301-6104895e59c5" name="Changes" comment="Initial commit - UC1 Feet Equality with TDD">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/measurement/src/main/java/QuantityMeasurementApp/MeasurementApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/measurement/src/main/java/QuantityMeasurementApp/MeasurementApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/enums/LengthUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/enumsImpl/LengthUnit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/enums/VolumeUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/enumsImpl/VolumeUnit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/enums/WeightUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/enumsImpl/WeightUnit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/model/Quantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/model/Quantity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/model/QuantityLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/model/QuantityLength.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/model/QuantityWeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/model/QuantityWeight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/measurement/src/test/java/QuantityMeasurementApp/MeasurementApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/measurement/src/test/java/QuantityMeasurementApp/MeasurementApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
