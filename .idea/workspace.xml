@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="861ba5d8-3704-48a3-8301-6104895e59c5" name="Changes" comment="Initial commit - UC1 Feet Equality with TDD">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/enums/IMeasurable.java" beforeDir="false" afterPath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/enums/IMeasurable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/model/Quantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/model/Quantity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/measurement/src/test/java/QuantityMeasurementApp/MeasurementApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/measurement/src/test/java/QuantityMeasurementApp/MeasurementApplicationTests.java" afterDir="false" />
     </list>
@@ -18,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -66,6 +67,7 @@
     &quot;JUnit.MeasurementApplicationTests.testEquality_NullComparison.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MeasurementApplicationTests.testEquality_SameReference.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MeasurementApplicationTests.testEquality_SameValue.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MeasurementApplicationTests.testTemperatureUnsupportedOperation_Add.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
@@ -104,22 +106,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MeasurementApplicationTests.testEquality_NullComparison" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="measurement" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="QuantityMeasurementApp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="QuantityMeasurementApp" />
-      <option name="MAIN_CLASS_NAME" value="QuantityMeasurementApp.MeasurementApplicationTests" />
-      <option name="METHOD_NAME" value="testEquality_NullComparison" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MeasurementApplicationTests.testEquality_SameReference" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="measurement" />
       <extension name="coverage">
@@ -152,6 +138,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MeasurementApplicationTests.testTemperatureUnsupportedOperation_Add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="measurement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="QuantityMeasurementApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="QuantityMeasurementApp" />
+      <option name="MAIN_CLASS_NAME" value="QuantityMeasurementApp.MeasurementApplicationTests" />
+      <option name="METHOD_NAME" value="testTemperatureUnsupportedOperation_Add" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MeasurementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
       <module name="measurement" />
@@ -168,19 +170,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Unnamed" />
+      <item itemvalue="JUnit.MeasurementApplicationTests.testTemperatureUnsupportedOperation_Add" />
       <item itemvalue="JUnit.MeasurementApplicationTests.testConversion_CentimetersToInches" />
-      <item itemvalue="JUnit.MeasurementApplicationTests.testEquality_NullComparison" />
       <item itemvalue="JUnit.MeasurementApplicationTests.testEquality_SameReference" />
       <item itemvalue="JUnit.MeasurementApplicationTests.testEquality_SameValue" />
       <item itemvalue="Spring Boot.MeasurementApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MeasurementApplicationTests.testTemperatureUnsupportedOperation_Add" />
         <item itemvalue="JUnit.MeasurementApplicationTests.testConversion_CentimetersToInches" />
         <item itemvalue="Spring Boot.MeasurementApplication" />
         <item itemvalue="JUnit.MeasurementApplicationTests.testEquality_SameValue" />
         <item itemvalue="JUnit.MeasurementApplicationTests.testEquality_SameReference" />
-        <item itemvalue="JUnit.MeasurementApplicationTests.testEquality_NullComparison" />
       </list>
     </recent_temporary>
   </component>
