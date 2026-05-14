@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="861ba5d8-3704-48a3-8301-6104895e59c5" name="Changes" comment="Initial commit - UC1 Feet Equality with TDD">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/enums/IMeasurable.java" beforeDir="false" afterPath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/enums/IMeasurable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/model/Quantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/model/Quantity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurement/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/measurement/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/measurement/src/test/java/QuantityMeasurementApp/MeasurementApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/measurement/src/test/java/QuantityMeasurementApp/MeasurementApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +67,7 @@
     &quot;JUnit.MeasurementApplicationTests.testEquality_SameReference.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MeasurementApplicationTests.testEquality_SameValue.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MeasurementApplicationTests.testTemperatureUnsupportedOperation_Add.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MeasurementApplicationTestsUC15.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
@@ -227,6 +227,11 @@
     </task>
     <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

@@ -1,5 +1,8 @@
 package QuantityMeasurementApp;
 
+import com.quantity.measurement.controller.Controller;
+import com.quantity.measurement.dto.QuantityDTO;
+import com.quantity.measurement.entity.Entity;
 import com.quantity.measurement.enums.IMeasurable;
 import com.quantity.measurement.enumsImpl.TemperatureUnit;
 import com.quantity.measurement.enumsImpl.VolumeUnit;
@@ -8,6 +11,8 @@ import com.quantity.measurement.model.Quantity;
 import com.quantity.measurement.model.QuantityWeight;
 import com.quantity.measurement.model.QuantityLength;
 import com.quantity.measurement.enumsImpl.LengthUnit;
+import com.quantity.measurement.repository.CacheRepository;
+import com.quantity.measurement.serviceImpl.ServiceImpl;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -2608,4 +2613,10 @@ class MeasurementApplicationTests {
         assertTrue(TemperatureUnit.FAHRENHEIT instanceof IMeasurable);
         assertTrue(TemperatureUnit.KELVIN instanceof IMeasurable);
     }
+
 }
+
+
+
+
+
