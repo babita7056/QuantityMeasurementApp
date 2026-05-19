@@ -1,18 +1,13 @@
 package QuantityMeasurementApp;
 
-import com.quantity.measurement.controller.Controller;
-import com.quantity.measurement.dto.QuantityDTO;
-import com.quantity.measurement.entity.Entity;
-import com.quantity.measurement.enums.IMeasurable;
-import com.quantity.measurement.enumsImpl.TemperatureUnit;
-import com.quantity.measurement.enumsImpl.VolumeUnit;
-import com.quantity.measurement.enumsImpl.WeightUnit;
-import com.quantity.measurement.model.Quantity;
-import com.quantity.measurement.model.QuantityWeight;
-import com.quantity.measurement.model.QuantityLength;
-import com.quantity.measurement.enumsImpl.LengthUnit;
-import com.quantity.measurement.repository.CacheRepository;
-import com.quantity.measurement.serviceImpl.ServiceImpl;
+import com.app.quantitymeasurement.enums.IMeasurable;
+import com.app.quantitymeasurement.enumsImpl.TemperatureUnit;
+import com.app.quantitymeasurement.enumsImpl.VolumeUnit;
+import com.app.quantitymeasurement.enumsImpl.WeightUnit;
+import com.app.quantitymeasurement.model.Quantity;
+import com.app.quantitymeasurement.model.QuantityWeight;
+import com.app.quantitymeasurement.model.QuantityLength;
+import com.app.quantitymeasurement.enumsImpl.LengthUnit;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -2310,10 +2305,10 @@ class MeasurementApplicationTests {
         assertFalse(new Quantity<>(1.0, LengthUnit.FEET)
                 .equals(new Quantity<>(1.0, WeightUnit.KILOGRAM)));
     }
-
+    //UC14===================
     // ===============================
-// UC14 TEMPERATURE MEASUREMENT TESTS
-// ===============================
+    // UC14 TEMPERATURE MEASUREMENT TESTS
+    // ===============================
 
     // EQUALITY TESTS (11)
     @Test
@@ -2571,7 +2566,6 @@ class MeasurementApplicationTests {
         assertTrue(VolumeUnit.LITRE.supportsArithmetic());
         assertFalse(TemperatureUnit.CELSIUS.supportsArithmetic());
     }
-
     @Test
     void testTemperatureValidateOperationSupport_Throws() {
         assertThrows(UnsupportedOperationException.class,
@@ -2613,10 +2607,4 @@ class MeasurementApplicationTests {
         assertTrue(TemperatureUnit.FAHRENHEIT instanceof IMeasurable);
         assertTrue(TemperatureUnit.KELVIN instanceof IMeasurable);
     }
-
 }
-
-
-
-
-

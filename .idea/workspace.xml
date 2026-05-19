@@ -5,9 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="861ba5d8-3704-48a3-8301-6104895e59c5" name="Changes" comment="Initial commit - UC1 Feet Equality with TDD">
+      <change afterPath="$PROJECT_DIR$/measurement/src/main/java/com/app/quantitymeasurement/entity/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/measurement/src/main/java/com/app/quantitymeasurement/repository/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/measurement/src/main/java/com/app/quantitymeasurement/serviceImpl/ServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/measurement/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/measurement/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurement/src/main/java/QuantityMeasurementApp/MeasurementApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/measurement/src/main/java/QuantityMeasurementApp/MeasurementApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/measurement/src/main/java/com/app/quantitymeasurement/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/dto/QuantityDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/measurement/src/main/java/com/app/quantitymeasurement/dto/QuantityDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/entity/Entity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/enums/IMeasurable.java" beforeDir="false" afterPath="$PROJECT_DIR$/measurement/src/main/java/com/app/quantitymeasurement/enums/IMeasurable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/enumsImpl/LengthUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/measurement/src/main/java/com/app/quantitymeasurement/enumsImpl/LengthUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/enumsImpl/TemperatureUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/measurement/src/main/java/com/app/quantitymeasurement/enumsImpl/TemperatureUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/enumsImpl/VolumeUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/measurement/src/main/java/com/app/quantitymeasurement/enumsImpl/VolumeUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/enumsImpl/WeightUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/measurement/src/main/java/com/app/quantitymeasurement/enumsImpl/WeightUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/exception/Exception.java" beforeDir="false" afterPath="$PROJECT_DIR$/measurement/src/main/java/com/app/quantitymeasurement/exception/Exception.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/model/Quantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/measurement/src/main/java/com/app/quantitymeasurement/model/Quantity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/model/QuantityLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/measurement/src/main/java/com/app/quantitymeasurement/model/QuantityLength.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/model/QuantityModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/measurement/src/main/java/com/app/quantitymeasurement/model/QuantityModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/model/QuantityTemperature.java" beforeDir="false" afterPath="$PROJECT_DIR$/measurement/src/main/java/com/app/quantitymeasurement/model/QuantityTemperature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/model/QuantityWeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/measurement/src/main/java/com/app/quantitymeasurement/model/QuantityWeight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/repository/CacheRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/repository/Repository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/measurement/src/main/java/com/app/quantitymeasurement/service/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurement/src/main/java/com/quantity/measurement/serviceImpl/ServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurement/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/measurement/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/measurement/src/test/java/QuantityMeasurementApp/MeasurementApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/measurement/src/test/java/QuantityMeasurementApp/MeasurementApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurement/src/test/java/QuantityMeasurementApp/MeasurementApplicationTestsUC15.java" beforeDir="false" afterPath="$PROJECT_DIR$/measurement/src/test/java/QuantityMeasurementApp/MeasurementApplicationTestsUC15.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,36 +78,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.QuantityLength.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QuantityMeasurementApp.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MeasurementApplicationTests.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MeasurementApplicationTests.testConversion_CentimetersToInches.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MeasurementApplicationTests.testEquality_DifferentValue.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MeasurementApplicationTests.testEquality_NonNumericInput.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MeasurementApplicationTests.testEquality_NullComparison.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MeasurementApplicationTests.testEquality_SameReference.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MeasurementApplicationTests.testEquality_SameValue.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MeasurementApplicationTests.testTemperatureUnsupportedOperation_Add.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MeasurementApplicationTestsUC15.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.MeasurementApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/babit/OneDrive/Documents/spring boot&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.QuantityLength.executor": "Run",
+    "Application.QuantityMeasurementApp.executor": "Run",
+    "JUnit.DatabaseIntegrationTest.executor": "Run",
+    "JUnit.MeasurementApplicationTests.executor": "Run",
+    "JUnit.MeasurementApplicationTests.testConversion_CentimetersToInches.executor": "Run",
+    "JUnit.MeasurementApplicationTests.testEquality_DifferentValue.executor": "Run",
+    "JUnit.MeasurementApplicationTests.testEquality_NonNumericInput.executor": "Run",
+    "JUnit.MeasurementApplicationTests.testEquality_NullComparison.executor": "Run",
+    "JUnit.MeasurementApplicationTests.testEquality_SameReference.executor": "Run",
+    "JUnit.MeasurementApplicationTests.testEquality_SameValue.executor": "Run",
+    "JUnit.MeasurementApplicationTests.testTemperatureUnsupportedOperation_Add.executor": "Run",
+    "JUnit.MeasurementApplicationTestsUC15.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.MeasurementApplication.executor": "Run",
+    "git-widget-placeholder": "dev",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/babit/OneDrive/Documents/spring boot",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "build.tools"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "h2"
+    ]
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="QuantityMeasurementApp" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <method v="2">
