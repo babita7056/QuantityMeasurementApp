@@ -1,6 +1,6 @@
-package QuantityMeasurementApp;
-import com.app.quantitymeasurement.enumsImpl.LengthUnit;
-import com.app.quantitymeasurement.model.QuantityLength;
+package com.app.quantitymeasurement;
+
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -8,17 +8,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class MeasurementApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MeasurementApplication.class, args);
-
-		// Static values logic (moved here)
-		double value1 = 1.0;
-		LengthUnit unit1 = LengthUnit.FEET;
-
-		double value2 = 12.0;
-		LengthUnit unit2 = LengthUnit.INCH;
-
-		QuantityLength length1 = new QuantityLength(value1, unit1);
-		QuantityLength length2 = new QuantityLength(value2, unit2);
-
+		SpringApplication.run(
+				MeasurementApplication.class,
+				args
+		);
 	}
 }
